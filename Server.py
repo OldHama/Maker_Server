@@ -38,8 +38,8 @@ def threaded(client_socket, addr):
 client_sockets = [] # 서버에 접속한 클라이언트 목록
 
 # 서버 IP 및 열어줄 포트
-HOST = input("HOSIP:")
-PORT = int(input("PORT?))
+HOST = input("HOS?: ")
+PORT = int(input("PORT?: "))
 
 # 서버 소켓 생성
 print('>> Server Start')
